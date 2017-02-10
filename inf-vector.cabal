@@ -24,6 +24,7 @@ library
   other-modules:       Data.InfVector.Base
   build-depends:       base >= 4.7 && < 5, vector, monad-loops
   default-language:    Haskell2010
+  ghc-options:         -Wall -Werror -O2
 
 source-repository head
   type:     git
